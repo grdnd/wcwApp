@@ -9,6 +9,16 @@ body {
     font-size: 1rem;
 }
 
+.wcw {
+    font-size: 150%;
+    padding: 1%
+}
+
+input {
+    margin-left: 5%;
+    padding-left: 5%;
+}
+
 /* Style Header */
 /* style container of search */
 /* style submit button */
