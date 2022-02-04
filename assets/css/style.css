@@ -10,13 +10,13 @@ body {
 }
 
 .wcw {
-    font-size: 150%;
+    font-size: 160%;
     padding: 1%
 }
 
 input {
-    margin-left: 5%;
-    padding-left: 5%;
+    margin-left: 1%;
+    padding: 0 15% 0 1%;
 }
 
 /* Style Header */
