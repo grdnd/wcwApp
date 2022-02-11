@@ -17,23 +17,33 @@
         <span id="westside">
             Westside 
         </span>
-        <span class="coastal">
+        <span id="coastal">
             Coastal 
         </span>
     </header>
     <form>
         <input type="text" placeholder="City" id="input" autocomplete="off"/>
-        <button class="search" id="search">Search</button>
-        <button class="refresh" id="refresh">Refresh</button>
+        <button class="search" id="search">
+            <span id="btnspan">S</span>earch
+        </button>
+        <button class="refresh" id="refresh">
+            <span id="btnspan">R</span>efresh
+        </button>
     </form>
     <!-- Bootstrap Containers -->
     <main class="container">
         <div class="row">
             <div class="col-sm-4 align-self-start">
-                col-4 : searchHistory
+                <p>col-4 : searchHistory Build</p>
+                <div id="cityHistory"></div>
+                
             </div>
             <div class="col-sm-8">
-                col-8 : Weather Display
+                <p>col-8 : Weather Display Build</p>
+                <section id="results">
+
+                </section>
+                
             </div>
         </div>
     </main>    
