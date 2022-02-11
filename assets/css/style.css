@@ -6,21 +6,38 @@
 
 body {
     font-family: 'Voltaire', sans-serif;
-    font-size: 1rem;
 }
 
-.wcw {
-    font-size: 160%;
-    padding: 1%
+/* Header styling */
+header {
+    font-size: 200%;
+    padding: 0 0 0 1%;
+    text-align: center;
 }
 
-input {
-    margin-left: 1%;
-    padding: 0 15% 0 1%;
+/* Input width and padding */
+#input {
+    width: 60%;
+    padding: 0 0 0 1%;
+    margin: 0 0 0 1%;
+    border-radius: .5rem;
+    border-color: lightblue;
+}
+
+/* Srch Btn styling */
+.search,
+.refresh {
+    width: 10%;
+    border-radius: .5rem;
+    border: none;
 }
 
 /* Style Header */
 /* style container of search */
 /* style submit button */
 /*  STOP CSS HERE GO TO JAVASCRIPT */
-/* style jumbotron */
+
+/* Breakpoint where bootstrap stacks */
+@media screen and (max-width 575px) {
+    
+}
