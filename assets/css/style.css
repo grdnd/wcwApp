@@ -1,3 +1,11 @@
+:root{
+    --ming: #4A706F;
+    --light1: #9AA997;
+    --light2: #CFD3BE;
+    --dark: #002838;
+    --contrast: #EE2E31;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -6,35 +14,66 @@
 
 body {
     font-family: 'Voltaire', sans-serif;
+    background: url('https://images.wallpapersden.com/image/download/clouds-4k_a2xqbGuUmZqaraWkpJRpaWxprWdqZmw.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: 100;
 }
 
 /* Header styling */
 header {
-    font-size: 200%;
+    font-size: 250%;
     padding: 0 0 0 1%;
     text-align: center;
 }
 
-/* Input width and padding */
-#input {
-    width: 60%;
-    padding: 0 0 0 1%;
-    margin: 0 0 0 1%;
-    border-radius: .5rem;
-    border-color: lightblue;
+#westside {
+    color: var(--light2);
 }
 
-/* Srch Btn styling */
+#coastal {
+    color: var(--ming);
+}
+
+/* Input styling */
+input[type="text"]
+{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.1725);
+    border: none;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+#input {
+    width: 78%;
+    padding: 0 0 0 1%;
+    margin: 0 0 2% 1%;
+    border-radius: .5rem;
+    height: 3rem;
+}
+
+#input:focus {
+    outline: none;
+}
+
+/* Srch/Refresh Btn styling */
 .search,
 .refresh {
+    background-color: transparent;
+    color: var(--light1);
+    height: 3rem;
     width: 10%;
     border-radius: .5rem;
-    border: none;
+    /* border-color: var(--light2); */
+    text-shadow: 1px 1px gray;
 }
 
-/* Style Header */
-/* style container of search */
-/* style submit button */
+#btnspan {
+    color: var(--contrast);
+}
+
 /*  STOP CSS HERE GO TO JAVASCRIPT */
 
 /* Breakpoint where bootstrap stacks */
